@@ -436,6 +436,7 @@ $arrow-border: 7px;
       color: white;
       padding: $tooltip-padding;
       z-index: 10;
+      white-space: nowrap;
 
       @media screen and (max-width: $break-small) {
         width: $tooltip-width-mobile;
